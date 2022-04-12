@@ -147,6 +147,12 @@ body {
     color: rgb(153,23,60);
     font-weight: bolder;
 }
+.producto li{
+    transition: all .5s;
+}
+.producto li:hover{
+    font-size: 30px;
+}
   
 .section2 { 
     grid-area: section2;
@@ -265,10 +271,22 @@ width: 600px;
     flex-direction: column;
     align-items: center;
 }
+
+.transicion {
+    width: 80px;
+    transition: all .5s;
+}
+
+.transicion:focus{
+    width: 200px;
+    background: rgb(251, 251, 198);
+    border: 3px black solid;
+}
 .contacto {
 display: flex;
 justify-content: center;
 }
+
 
 /* page empresa */
 
@@ -380,6 +398,7 @@ justify-content: center;
         color: rgb(153,23,60);
         font-weight: bolder;
     }
+
       
     .section2 { 
         grid-area: section2; 
