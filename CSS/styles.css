@@ -24,7 +24,11 @@ body {
         background: linear-gradient(to bottom right, black, rgb(164, 156, 158));
 }
 
+@keyframes animacion {
+    0% {font-size: 5px;}
 
+    100% {font-size: 16px;}
+}
 .titulo {
     display: flex;
     justify-content: center;
@@ -33,14 +37,16 @@ body {
     margin-left: 10px;
     height: 35px;
     width: 220px;
-    background-color: aqua;
     margin-top: 10px;
+    animation-name: animacion;
+    animation-iteration-count: 1s;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    font-size: 16px;
+    text-align: center;
     
 }
 
-
-
-  
 .footer { 
       grid-area: footer;
       background: linear-gradient(to bottom right, black, white);
@@ -154,6 +160,12 @@ body {
     margin: 10px;
     width: 250px;
     text-align: center;
+    transition: width 1s;
+}
+
+.card:hover {
+    width: 300px;
+    background-color: gray;
 }
 
 /* grid productos */
@@ -310,6 +322,9 @@ justify-content: center;
     .imgIndex {
         max-width: 470px;
     }
+    
+
+
 
     .menu ul{
         display: flex;
