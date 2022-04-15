@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(239,255,205);
-    margin-left: 10px;
+    margin-left: 20px;
     height: 35px;
     width: 220px;
     margin-top: 10px;
@@ -57,7 +57,24 @@ body {
 >>>>>>> rama-desafio
     
 }
+.indexTitulo{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(92, 161, 92);
+    font-weight: 800;
+}
+img {
+    max-height: 400px;
 
+}
+
+#carouselExampleIndicators {
+    width: 800px;
+    height: 500PX;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 .footer { 
       grid-area: footer;
       background: linear-gradient(to bottom right, black, white);
