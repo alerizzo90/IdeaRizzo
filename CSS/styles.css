@@ -72,9 +72,16 @@ img {
 #carouselExampleIndicators {
     width: 800px;
     height: 500PX;
-    margin: 0 auto;
     margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+}
+
 .footer { 
       grid-area: footer;
       background: linear-gradient(to bottom right, black, white);
@@ -265,45 +272,29 @@ h3 {
 }
 
 /* page contacto */
-
-.imgContacto{
-width: 600px;
-
-}
-#contacto{
-    background-color: rgb(220,233,190);
-    color: rgb(153,23,60);
-    width: 600px;
-    font-weight: bold;
+.contacto {
     display: flex;
     justify-content: center;
 }
+.imgContacto{
+width: 600px;
+}
 
-#contacto fieldset div{
-    margin-bottom: 8px;
-
+#cuestionario {
+    margin: 10px;
+    width: 400px;
 }
 .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.transicion {
-    width: 80px;
-    transition: all .5s;
+.item {
+    margin-top: 10px;
 }
-
-.transicion:focus{
-    width: 200px;
-    background: rgb(251, 251, 198);
-    border: 3px black solid;
+.item:last-child{
+    margin-bottom: 10px;
 }
-.contacto {
-display: flex;
-justify-content: center;
-}
-
 
 /* page empresa */
 
@@ -365,8 +356,13 @@ justify-content: center;
         justify-content: center;
         margin-top: 20px;
     }
-    .imgIndex {
-        max-width: 470px;
+
+/* carrusel */
+    #carouselExampleIndicators {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
     }
     
 
@@ -443,5 +439,16 @@ justify-content: center;
         width: 250px;
         text-align: center;
     }
-}
+    /* page contacto */
+    .imgContacto{
+        margin: 10px;
+        width: 100%;    
+    }
+    .item {
+        margin-top: 10px;
+    }
+    .item:last-child{
+        margin-bottom: 10px;
+    }
+    
 
