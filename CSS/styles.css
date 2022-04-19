@@ -333,10 +333,12 @@ width: 600px;
         margin: 0 auto;
         margin-top: 30px;
     }
+
+    .iconoTienda {
+        width: 70px;
+        margin-bottom: 10px;
+        }
     
-
-
-
     .menu ul{
         display: flex;
         flex-direction: column;
