@@ -25,10 +25,10 @@ body {
 }
 
 .indexTitulo{
-    font-size: 35px;
+    font-size: 25px;
     margin-left: 10px;
     margin-right: 20px;
-    color: rgb(92, 161, 92);
+    color: rgb(136, 215, 136);
     font-weight: 800;
 }
 img {
@@ -74,7 +74,9 @@ img {
 
 
 }
-
+.iconoTienda {
+    width: 70px;
+}
 .menu li {
     width: 160px;
     height: 30px;
